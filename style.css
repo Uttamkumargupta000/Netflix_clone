@@ -32,13 +32,30 @@ nav{
 
 nav img{
     color: red;
-    width: 126px;
+    width: 148px;
+    height: 48px;
     position: relative;
     z-index: 10;
 
 }
 
+nav select{
+    height: 32px;
+    width: 127px;
+    border-radius: 5px;
+    border: 2px solid rgb(109, 106, 106);
+    text-align: center;
+    background-color: black;
+    color: white;
+    position: relative;
+    z-index: 10;
+}
+
 nav button{
+    height: 32px;
+    width: 77px;
+    border-radius: 5px;
+    border: 2px solid red;
     background-color: red;
     color: white;
     position: relative;
