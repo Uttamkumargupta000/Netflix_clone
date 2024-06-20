@@ -211,6 +211,27 @@ section.first > div{
     cursor: pointer;
 }
 
+.front-text2{
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100% - 62px);
+    position: relative;
+    z-index: 10;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 0 30px;
+}
+
+.front-text2> :nth-child(1){
+    margin-top: 60px;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
 /* footer */
 footer{
     margin-top: 15px;
