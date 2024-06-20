@@ -90,7 +90,7 @@ nav button{
 }
 
 .front-text> :nth-child(1){
-    font-weight: 900;
+    font-weight: bolder;
     font-size: 48px;
     text-align: center;
 }
@@ -156,7 +156,7 @@ nav button{
 }
 
 .secImg img{
-    width: 30vw;
+    width: 555px;
     position: relative; 
     z-index: 10;
 }
@@ -165,11 +165,13 @@ nav button{
     position: absolute;
     top: 51px;
     right: 0;
+    width: 555px;
 }
 
 section.first > div{
     display: flex;
     flex-direction: column;
+    padding: 34px 0;
 }
 
 .first > div :nth-child(1){
@@ -232,10 +234,12 @@ section.first > div{
     text-align: center;
 }
 
+
 /* footer */
 footer{
     margin-top: 15px;
 }
+
 .foot-panel1{
     text-align: start;
     padding-top: 56px;
@@ -246,14 +250,13 @@ footer{
 }
 
 .foot-panel2{
-    padding-right: 356px;
+    padding-right: 220px;
     text-decoration: underline;
     color: rgb(139, 117, 117);
-    height: 200px;
+    height: 150px;
     display: flex;
     justify-content: space-evenly;
 }
-
 
 ul a{
     display: block;
@@ -271,6 +274,72 @@ ul a{
     font-weight: bolder;
     background-color: black;
     color: white;
+}
+
+@media screen and (max-width: 1300px){
+
+    nav{
+        max-width: 90vw;
+    }
+
+    .first{
+        flex-wrap: wrap;
+    }
+
+    .secImg img{
+        width: 305px;
+    }
+    
+    .secImg video {
+        width: 305px;
+    }
+
+    .front-text> :nth-child(1){
+        font-size: 32px;
+    }
+
+    .front-text> :nth-child(2){
+        font-size: 18px;
+    }
+
+    .front-text> :nth-child(3){
+        font-size: 18px;
+    }
+
+    .get-started{
+        font-size: 18px;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .faq h2{
+        text-align: center;
+        font-size: 32px;
+    }
+
+    footer{
+        max-width: 90vw;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .foot-panel2{
+        display: flex;
+        flex-direction: column;
+        color: rgb(193, 189, 189);
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width: 1300px{
+    .last-language{
+        display: block;
+        flex-direction: column;
+        color: rgb(193, 189, 189);
+    }
 }
 
 
