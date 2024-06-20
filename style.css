@@ -194,7 +194,13 @@ section.first > div{
     padding: 34px;
 }
 
+.faqbox:hover{
+    background-color: #414141;
+    color: white;
+}
+
 .faqbox{
+    transition: all 0.4s ease-out;
     font-size: 24px;
     display: flex;
     justify-content: space-between;
@@ -205,8 +211,48 @@ section.first > div{
     cursor: pointer;
 }
 
-.faqbox :hover{
-    background-color: rgb(37,36,36);
-    transition: all;
+/* footer */
+footer{
+    margin-top: 15px;
 }
+.foot-panel1{
+    text-align: start;
+    padding-top: 56px;
+    padding-left: 135px;
+    color: rgb(190, 190, 190);
+    height: 50px;
+    font-size: 0.85rem;
+}
+
+.foot-panel2{
+    padding-right: 356px;
+    text-decoration: underline;
+    color: rgb(139, 117, 117);
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color: rgb(182, 180, 180);
+}
+
+.last-language{
+    height: 32px;
+    width: 127px;
+    border-radius: 5px;
+    border: 2px solid rgb(109, 106, 106);
+    text-align: center;
+    font-weight: bolder;
+    background-color: black;
+    color: white;
+}
+
+
+
+
  
